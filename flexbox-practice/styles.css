@@ -1,0 +1,51 @@
+body {
+  margin: 0;
+}
+/* display: flex, display:inline-flex for flexbox
+flex=> it acts as a block display
+inline-flex=> it acts as an inline display */
+
+/* flex-direction:row; => sets the direction of the children from left to right
+flex-direction:column; => sets the direction of the children from top to bottom
+flex-direction:row-reverse; => sets the direction of the children from right to left
+flex-direction:column-reverse; => sets the direction of the children from bottom to top */
+.container {
+  display: flex; /*if we do not provide display:flex then the components will be stacked one after another vertically*/
+  border: 6px solid rgb(0, 0, 0);
+  flex-direction: row;
+}
+.flex-item {
+  color: white;
+  font-size: 1.5rem;
+  padding: 1rem;
+  text-align: center;
+}
+.item-1 {
+  background-color: #b4bf35;
+}
+.item-2 {
+  background-color: #b95f21;
+
+  flex-shrink: 3;
+}
+.item-3 {
+  background-color: #1c4c56;
+}
+.item-4 {
+  background-color: #cfb276;
+}
+.item-5 {
+  background-color: #6b0803;
+}
+.item-6 {
+  background-color: #1c4c56;
+}
+.item-7 {
+  background-color: #b95f21;
+}
+.item-8 {
+  background-color: #01243a;
+}
+.item-9 {
+  background-color: #aad041;
+}
